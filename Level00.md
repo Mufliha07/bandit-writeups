@@ -1,13 +1,13 @@
-** Bandit Level 0**
+**Bandit Level 0**
 
-** Goal:**
+**Goal:**
 Login to the Bandit game server using SSH.
 
-** Login Credentials: **
+**Login Credentials:**
 Username: bandit0  
 Password: bandit0
 
-** Commands used:**
+**Commands used:**
 ```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
