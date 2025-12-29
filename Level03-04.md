@@ -15,4 +15,4 @@ cat ...Hiding-From-You
 
 *Password Found* :2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
-*Screenshot* : see `screenshots/Level03-04.png
+*Screenshot* : see `screenshots/Level03-04.png`
