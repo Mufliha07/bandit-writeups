@@ -55,4 +55,5 @@
 ## Notes:
 
    -Learned how to brute-force numeric pincodes efficiently using bash loops.
+   
    -Learned that cron/automation is not used here, only a listening daemon on a port.
