@@ -53,7 +53,7 @@ gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
  
 ----
 
-##Notes
+## Notes
 
 - Learned how cron executes scripts automatically.
 - Learned creating and using a custom shell script to extract passwords.
