@@ -18,13 +18,13 @@ Exit from Bandit13 back to local machine:
 exit
 
 Save the copied SSH key into a new file locally using echo:
-echo "<PASTE_COPIED_KEY_HERE>" > /tmp/bandit13-14
+echo "<PASTE_COPIED_KEY_HERE>" > bandit13-14
 
 Give proper file permission for the SSH key:
-chmod 700 /tmp/bandit13-14
+chmod 700 bandit13-14
 
 Login to Bandit14 using the saved private key:
-ssh bandit14@bandit.labs.overthewire.org -p 2220 -i /tmp/bandit13-14
+ssh bandit14@bandit.labs.overthewire.org -p 2220 -i bandit13-14
 
 Read the password for the next level:
 cat /etc/bandit_pass/bandit14
