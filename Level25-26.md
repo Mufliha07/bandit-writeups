@@ -40,6 +40,7 @@ No password is retrieved here. Only the SSH private key is obtained and used to 
 
 ## Screenshot:
 screenshots/Level25-26_(1).png
+
 screenshots/Level25-26_(2).png
 
 ## Notes:
