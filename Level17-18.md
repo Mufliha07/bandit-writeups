@@ -8,8 +8,7 @@ Logged into Bandit17 using credentials from the previous level.
 
 ## Commands used & Purpose:
 
-ls  
-→ Listed the files in the home directory to locate passwords.old and passwords.new
+ls  → Listed the files in the home directory to locate passwords.old and passwords.new
 
 diff passwords.old passwords.new 
 → Compared both files and identified the only modified line which contains the next password
