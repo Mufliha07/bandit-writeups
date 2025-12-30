@@ -8,9 +8,13 @@ Logged into Bandit26 using the shell escaped from the previous level.
 
 ## Commands used:
 `ssh bandit26@bandit.labs.overthewire.org -p 2220` → Login to the server using SSH 
+
 `ls`                                               → List files and find the bandit27-do binary 
-`./bandit27-do`                                    → Execute the setuid program to check how it works 
+
+`./bandit27-do`                                    → Execute the setuid program to check how it works
+
 `./bandit27-do cat /etc/bandit_pass/bandit27`      → Use the binary to run cat as Bandit27 and read the password file
+
 
 ## Password Found:
 upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
