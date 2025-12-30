@@ -26,14 +26,14 @@
 
 4. Give execute permission and run the script to generate all combinations:
 
-  `chmod +x script.sh` && `./script.sh`
+   `chmod +x script.sh` && `./script.sh`
 
 5. Verify generated files:
-    ls
+    `ls`
 
 6. Send the brute-forced password + pincode list to the listening daemon:
   
-    'cat list.txt | nc localhost 30002`
+    `cat list.txt | nc localhost 30002`
 
 7. After multiple failed attempts, the correct password was returned from one valid combination.
 
