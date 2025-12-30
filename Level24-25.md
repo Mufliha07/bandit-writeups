@@ -16,11 +16,13 @@
    `nano script.sh`
 
 3. Add the following content inside script.sh:
-  ```#!/bin/bash
+  ```
+    #!/bin/bash
      for i in {0..9}{0..9}{0..9}{0..9}
      do
      echo "gbBKRRCsshuZXI0tUuR6yp0Fj1Zbf368 $i" >> list.txt
-     done```
+     done
+```
 
 4. Give execute permission and run the script to generate all combinations:
 
