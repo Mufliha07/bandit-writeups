@@ -1,6 +1,6 @@
 # Bandit Level 16 → 17
 
-** Goal:**
+**Goal:**
 Find the only port in the range 31000–32000 that speaks SSL/TLS, submit the current level password, receive the RSA private key, and use it to log into Bandit17.
 
 ** Login:**
@@ -32,14 +32,14 @@ exit
 ```ssh bandit17@bandit.labs.overthewire.org -p 2220 -i bandit16-17```
 → Logged into Bandit17 using the extracted RSA private key
 
-** Password found:**
+**Password found:**
 (No password was obtained here, only RSA private key was received)
 
-** Screenshot:**
+**Screenshot:**
 screenshots/Level16-17_step1.png
 screenshots/Level16-17_step2.png
 screenshots/Level16-17_step3-final.png
 
-** Notes:**
+**Notes:**
 This level teaches port scanning using nmap, identifying SSL/TLS services, testing ports using ncat with SSL, extracting an RSA private key, storing it securely,
 giving proper permissions, and authenticating into another SSH user using -i flag.
