@@ -46,5 +46,7 @@ screenshots/Level29-30.png
 ## Notes:
 
  -Password was found in a non-main branch (dev), not in main/master.
+ 
  -Learned branch enumeration and switching in Git repositories.
+ 
  -Sensitive info can exist in hidden or developer branches.
