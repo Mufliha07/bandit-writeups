@@ -3,7 +3,7 @@
 **Goal:**
 Find the only port in the range 31000–32000 that speaks SSL/TLS, submit the current level password, receive the RSA private key, and use it to log into Bandit17.
 
-** Login:**
+**Login:**
 Logged into Bandit16 using the password obtained from Level 15 → 16.
 
 **Commands used & Purpose:**
