@@ -1,9 +1,9 @@
-##Level: Bandit 20 → 21
+## Level: Bandit 20 → 21
 
-##Goal:
+## Goal:
 Use the setuid binary suconnect to retrieve the password for the next level by verifying the current level password through a netcat listener using SSL/TLS.
 
-##Steps:
+## Steps:
 
 1. Identify the current password for Bandit20:
    cat /etc/bandit_pass/bandit20
@@ -21,12 +21,12 @@ Use the setuid binary suconnect to retrieve the password for the next level by v
 Result:
 Password verified successfully and next password received.
 
-##Password for Level 21:
+## Password for Level 21:
 kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 
-##Screenshot:
+## Screenshot:
 screenshots/Level20-21.png
 
-##Notes:
+## Notes:
 - Only one port listener returns the next password; others echo back the input.
 - This level demonstrates inter-terminal communication using a setuid binary with network validation.
